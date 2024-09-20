@@ -1,0 +1,58 @@
+body{
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+/** SCHERM MACBOOK 13INCH - GOOGLE CHROME */
+@media only screen and (min-width: 1424px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        width: 100%;
+        height: auto;
+    }
+    #header-Div{
+        background-color: rgb(245 113 20);
+        width: 100%;
+        height: 200px;
+    }
+    #header-Div h3, p{
+        text-align: center;
+        color: rgb(253 252 252);
+        padding-top: 50px;
+    }
+    #header-Div h3{
+        font-size: 30px;
+        font-weight: bold;
+    }
+    #header-Div p{
+        padding-top: 20px;
+        font-size: 19px;
+    }
+
+    #header-Nav{
+        background-color: rgb(189 86 14);
+        width: 100%;
+        height: 50px;
+    }
+    #header-Nav ul{
+        list-style: none;
+        word-spacing: 15px;
+    }
+    #header-Nav ul li{
+        display: inline-block;
+        padding-top: 13px;
+        padding-left: 25px;
+        color: rgb(255 254 254);
+        word-spacing: -1px;
+        font-size: 20px;
+    }
+    #header-Nav a{
+        cursor: pointer;
+    }
+
+
+
+}
