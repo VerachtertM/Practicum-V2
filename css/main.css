@@ -13,6 +13,7 @@ body{
         width: 100%;
         height: auto;
     }
+
     /** HEADER */
     #header-Div{
         background-color: rgb(245 113 20);
@@ -62,16 +63,14 @@ body{
         height: 5px;
         background-color: rgb(254 215 9);
     }
-    /** EINDE HEADER */
 
-                      /*-- HEADER IS DONE/*
-
+                      /*-- HEADER IS KLAAR/*
 
     /** ASIDE */
     aside{
         background-color: rgb(255 183 133);
         width: 30%;
-        height: 1200px;
+        height: 1300px;
     }
     #aside h3{
         padding-left: 30px;
@@ -106,14 +105,12 @@ body{
 
     }
     
-                        /*-- ASIDE IS DONE /*
-
-    /** EINDE ASIDE */
+                        /*-- ASIDE IS KLAAR /*
 
     /** BEGIN MAIN*/
     main{
         width: 70%;
-        height: 1200px;
+        height: 1300px;
         top: 255px;
         left: 427.5px;
         position: absolute;
@@ -176,7 +173,28 @@ body{
         padding-top: 150px;
         padding: auto;
     }
-                        /*-- MAIN IS DONE */
+                        /*-- MAIN IS KLAAR */
+    
+    /** BEGIN FOOTER */
+
+    footer{
+        width: 100%;
+        height: 100px;
+        background-color: rgb(189 86 14);
+        top: 0;
+        position: relative;
+    }
+    #footer-Pa1{
+        color: black;
+        font-size: 18px;
+        padding-top: 26px;
+    }
+    #footer-Pa2{
+        color: black;
+        font-size: 18px;
+        padding-top: 10px;
+    }
+                        /*-- FOOTER IS KLAAR */
 }
 
 
@@ -185,14 +203,17 @@ body{
 
 
 
+                        /*! RESPONSIVE IS FOR LATER! */
+                        /*! EERST ALLE PAGINA'S MAKEN */
+
 /** SCHERM IPHONE 11*/
 @media only screen and (min-width: 413px) and (max-width: 1423px){
-    body{
+    *{
         background-image: url(/img/nr.png);
         background-repeat: no-repeat;
         background-size: cover;
     }
-    header{
+    body{
         display: none;
     }
 }
