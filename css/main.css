@@ -105,12 +105,83 @@ body{
         padding-top: 540px;
 
     }
-    }
-                        /*-- ASIDE IS DONE/*
+    
+                        /*-- ASIDE IS DONE /*
 
     /** EINDE ASIDE */
 
-    /** -------------------------------- */
+    /** BEGIN MAIN*/
+    main{
+        width: 70%;
+        height: 1200px;
+        top: 255px;
+        left: 427.5px;
+        position: absolute;
+    }
+    #main-H3-1{
+        padding-left: 30px;
+        padding-top: 30px;
+        font-weight: bold;
+        font-size: 20px;
+        color: rgb(245 115 17);
+    }
+    #main p{
+        color: black;
+        font-size: 18px;
+        left: 30px;
+        top: 25px;
+        position: absolute;
+    }
+    #main-img-1{
+        width: 37%;
+        padding-top: 70px;
+        padding-left: 40px;
+    }
+    #main-Pa2{
+        font-size: 18px;
+        padding-top: 350px;
+        padding: auto;
+    }
+    #main-Pa3{
+        font-size: 18px;
+        padding-top: 500px;
+    }
+    #main-H3-2{
+        padding-left: 30px;
+        top: 630px;
+        position: absolute;
+        font-weight: bold;
+        font-size: 20px;
+        color: rgb(245 115 17);
+    }
+    #main-Pa4{
+        font-size: 18px;
+        padding-top: 650px;
+    }
+    #main-img-2{
+        width: 37%;
+        padding-top: 400px;
+        padding-left: 40px;
+
+    }
+    #main2 p{
+        color: black;
+        font-size: 18px;
+        left: 30px;
+        top: 925px;
+        position: absolute;
+    }
+    #main2-Pa2{
+        font-size: 18px;
+        padding-top: 150px;
+        padding: auto;
+    }
+                        /*-- MAIN IS DONE */
+}
+
+
+
+
 
 
 
