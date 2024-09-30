@@ -1,0 +1,264 @@
+body{
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/** SCHERM MACBOOK 13INCH - GOOGLE CHROME */
+@media only screen and (min-width: 1424px) {
+    body{
+        overflow-x: hidden;
+        width: 100%;
+        height: auto;
+    }
+
+    /** HEADER */
+    #header-Div{
+        background-color: rgb(245 113 20);
+        width: 100%;
+        height: 200px;
+    }
+    #header-Div h3, p{
+        text-align: center;
+        color: rgb(253 252 252);
+        padding-top: 50px;
+    }
+    #header-Div h3{
+        font-size: 30px;
+        font-weight: bold;
+    }
+    #header-Div p{
+        padding-top: 20px;
+        font-size: 19px;
+    }
+
+    #header-Nav{
+        background-color: rgb(189 86 14);
+        width: 100%;
+        height: 50px;
+    }
+    #header-Nav ul{
+        list-style: none;
+        word-spacing: 15px;
+    }
+    #header-Nav ul li{
+        display: inline-block;
+        padding-top: 13px;
+        padding-left: 25px;
+        color: rgb(255 254 254);
+        word-spacing: -1px;
+        font-size: 20px;
+    }
+    #header-Nav a{
+        cursor: pointer;
+    }
+    #header-Nav a:hover{
+        color: rgb(243 112 22);
+    }
+
+    #color-Div{
+        width: 100%;
+        height: 5px;
+        background-color: rgb(254 215 9);
+    }
+
+                      /*-- HEADER IS KLAAR/*
+
+    /** ASIDE */
+    aside{
+        background-color: rgb(255 183 133);
+        width: 30%;
+        height: 700px;
+    }
+    #aside h3{
+        text-align: left;
+        padding-left: 30px;
+        padding-top: 30px;
+        font-weight: bold;
+        font-size: 20px;
+    } 
+    #aside-Pa1{
+        padding-top: 20px;
+        color: black;
+        font-size: 18px;
+        text-align: left;
+        padding-left: 30px;
+    }
+    #aside-Line1{
+        background-color: rgb(190 202 211);
+        width: 26%;
+        min-height: 3px;
+        left: 30px;
+        top: 360px;
+        position: absolute;
+    }
+    #aside-Pa2{
+        padding-top: 30px;
+        color: black;
+        font-size: 18px;
+        text-align: left;
+        padding-left: 30px;
+    }
+    #aside-Line2{
+        background-color: rgb(190 202 211);
+        width: 26%;
+        min-height: 3px;
+        left: 30px;
+        top: 435px;
+        position: absolute;
+    }
+    #aside-Pa3{
+        padding-top: 30px;
+        color: black;
+        font-size: 18px;
+        text-align: left;
+        padding-left: 30px;
+    }
+    
+                        /*-- ASIDE IS KLAAR /*
+
+    /** BEGIN MAIN*/
+    main{
+        width: 70%;
+        height: 700px;
+        top: 255px;
+        left: 427.5px;
+        position: absolute;
+    }
+    #main-H3-1{
+        padding-left: 30px;
+        padding-top: 30px;
+        font-weight: bold;
+        font-size: 20px;
+        color: rgb(245 115 17);
+    }
+    #main-Pa1 {
+        color: black;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: left;
+        padding-left: 30px;
+        padding-top: 30px;
+    }
+    #main-Pa2{
+        color: black;
+        font-size: 18px;
+        padding-top: 30px;
+        padding-left: 30px;
+        text-align: left;
+    }
+    #main-Pa2 strong{
+        font-weight: bold;
+    }
+    #main-Line1{
+        background-color: rgb(190 202 211);
+        width: 90%;
+        min-height: 3px;
+        left: 30px;
+        top: 170px;
+        position: absolute;
+    }
+    #main-Pa3{
+        color: black;
+        font-size: 18px;
+        padding-top: 40px;
+        padding-left: 30px;
+        text-align: left;
+    }
+    #main-Pa4{
+        color: black;
+        font-size: 18px;
+        padding-top: 40px;
+        padding-left: 30px;
+        text-align: left;
+    }
+    #main-Pa4 strong{
+        font-weight: bold;
+    }
+    #main-Line2{
+        background-color: rgb(190 202 211);
+        width: 90%;
+        min-height: 3px;
+        left: 30px;
+        top: 315px;
+        position: absolute;
+    }
+    #main-Pa5{
+        font-size: 18px;
+        padding-top: 40px;
+        text-align: left;
+        padding-left: 30px;
+        color: black;
+    }
+    #main-Pa6{
+        color: black;
+        font-size: 18px;
+        text-align: left;
+        padding-left: 30px;
+        padding-top: 40px;
+    }
+    #main-Pa6 strong{
+        font-weight: bold;
+    }
+    #main-Line3{
+        background-color: rgb(190 202 211);
+        width: 90%;
+        min-height: 3px;
+        left: 30px;
+        top: 435px;
+        position: absolute;
+    }
+    #main-Pa7{
+        font-size: 18px;
+        padding-left: 30px;
+        padding-top: 40px;
+        text-align: left;
+        color: black;
+    }
+                        /*-- MAIN IS KLAAR */
+    
+    /** BEGIN FOOTER */
+
+    footer{
+        width: 100%;
+        height: 100px;
+        background-color: rgb(189 86 14);
+        top: 0;
+        position: relative;
+    }
+    #footer-Pa1{
+        color: black;
+        font-size: 18px;
+        padding-top: 26px;
+    }
+    #footer-Pa2{
+        color: black;
+        font-size: 18px;
+        padding-top: 10px;
+    }
+                        /*-- FOOTER IS KLAAR */
+}
+
+
+
+
+
+
+
+                        /*! RESPONSIVE IS FOR LATER! */
+                        /*! EERST ALLE PAGINA'S MAKEN */
+
+/** SCHERM IPHONE 11*/
+@media only screen and (min-width: 413px) and (max-width: 1423px){
+    *{
+        background-image: url(/img/nr.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    body{
+        display: none;
+    }
+}
+
