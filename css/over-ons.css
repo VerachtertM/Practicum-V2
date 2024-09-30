@@ -79,33 +79,20 @@ body{
         font-weight: bold;
         font-size: 20px;
     }
-    #aside p{
-        text-align: left;
-        color: black;
-        font-size: 18px;
-        left: 30px;
-        top: 280px;
-        position: absolute;
-    }
+
     #aside img{
         width: 85%;
-        padding-top: 70px;
+        padding-top: 40px;
         padding-left: 40px;
     }  
-    #aside-Pa2{
-        font-size: 18px;
-        padding-top: 350px;
-        padding: auto;
-    }
-    #aside-H3-2{
-        top: 750px;
-        position: absolute;
-    }
-    #aside-Pa3{
-        font-size: 18px;
-        padding-top: 540px;
 
+    #aside p{
+        color: black;
+        font-size: 18px;
+        text-align: left;
+        padding-left: 30px;
     }
+
     
                         /*-- ASIDE IS KLAAR /*
 
@@ -118,67 +105,94 @@ body{
         position: absolute;
     }
     #main-H3-1{
-        padding-left: 40px;
+        padding-left: 30px;
         padding-top: 30px;
         font-weight: bold;
         font-size: 20px;
         color: rgb(245 115 17);
     }
-    #main p{
+    #main-Pa1 {
         color: black;
         font-size: 18px;
-        padding-left: 10px;
-        left: 30px;
-        top: 25px;
-        position: absolute;
-        
-    }
-    #main-img-1{
-        width: 37%;
-        padding-top: 70px;
-        padding-left: 40px;
+        font-weight: bold;
+        text-align: left;
+        padding-left: 30px;
+        padding-top: 30px;
     }
     #main-Pa2{
+        color: black;
         font-size: 18px;
-        padding-top: 350px;
+        padding-top: 30px;
+        padding-left: 30px;
         text-align: left;
-        }
+    }
     #main-Pa3{
+        color: black;
         font-size: 18px;
-        padding-top: 500px;
+        padding-top: 50px;
+        padding-left: 30px;
+        text-align: left;
+    }
+    #main-2 img{
+        width: 35%;
+        top: 130px;
+        left: 570px;
+        position: absolute;
+    }
+    #main-Pa4{
+        color: black;
+        font-size: 18px;
+        padding-top: 50px;
+        padding-left: 30px;
         text-align: left;
     }
     #main-H3-2{
-        padding-left: 40px;
-        top: 630px;
-        position: absolute;
+        text-align: left;
+        padding-left: 30px;
+        padding-top: 40px;
         font-weight: bold;
         font-size: 20px;
         color: rgb(245 115 17);
     }
-    #main-Pa4{
+    #main-Pa5{
         font-size: 18px;
-        padding-top: 650px;
+        padding-top: 30px;
+        text-align: left;
+        padding-left: 30px;
+        font-weight: bold;
+        color: black;
+    }
+    #img-Jesse{
+        width: 35%;
+        padding-top: 40px;
         padding-left: 40px;
     }
-    #main-img-2{
-        width: 37%;
-        padding-top: 400px;
-        padding-left: 40px;
-
-    }
-    #main2 p{
+    #main-Pa6{
         color: black;
         font-size: 18px;
         text-align: left;
-        padding-left: 40px;
+        padding-left: 400px;
+        top: 800px;
+        position: absolute;
     }
-    #main2-Pa2{
-        font-size: 18px;
-        padding-top: 70px;
-        padding-left: 40px;
+    #main-Pa7{
+        font-weight: bold;
+        font-size: 20px;
+        top: 970px;
+        position: absolute;
+        padding-left: 400px;
         text-align: left;
+        color: black;
     }
+    #main-Pa8{
+        font-size: 18px;
+        top: 1020px;
+        position: absolute;
+        padding-left: 400px;
+        text-align: left;
+        color: black;
+    }
+        
                         /*-- MAIN IS KLAAR */
     
     /** BEGIN FOOTER */
