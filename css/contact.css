@@ -1,0 +1,220 @@
+body{
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/** SCHERM MACBOOK 13INCH - GOOGLE CHROME */
+@media only screen and (min-width: 1424px) {
+    body{
+        overflow-x: hidden;
+        width: 100%;
+        height: auto;
+    }
+
+    /** HEADER */
+    #header-Div{
+        background-color: rgb(245 113 20);
+        width: 100%;
+        height: 200px;
+    }
+    #header-Div h3, p{
+        text-align: center;
+        color: rgb(253 252 252);
+        padding-top: 50px;
+    }
+    #header-Div h3{
+        font-size: 30px;
+        font-weight: bold;
+    }
+    #header-Div p{
+        padding-top: 20px;
+        font-size: 19px;
+    }
+
+    #header-Nav{
+        background-color: rgb(189 86 14);
+        width: 100%;
+        height: 50px;
+    }
+    #header-Nav ul{
+        list-style: none;
+        word-spacing: 15px;
+    }
+    #header-Nav ul li{
+        display: inline-block;
+        padding-top: 13px;
+        padding-left: 25px;
+        color: rgb(255 254 254);
+        word-spacing: -1px;
+        font-size: 20px;
+    }
+    #header-Nav a{
+        cursor: pointer;
+    }
+    #header-Nav a:hover{
+        color: rgb(243 112 22);
+    }
+
+    #color-Div{
+        width: 100%;
+        height: 5px;
+        background-color: rgb(254 215 9);
+    }
+
+                      /*-- HEADER IS KLAAR/*
+
+    /** ASIDE */
+    aside{
+        background-color: rgb(255 183 133);
+        width: 30%;
+        height: 800px;
+    }
+    #aside h3{
+        text-align: left;
+        padding-left: 30px;
+        padding-top: 30px;
+        font-weight: bold;
+        font-size: 20px;
+    } 
+    #aside-Pa1{
+        padding-top: 20px;
+        color: black;
+        font-size: 18px;
+        text-align: left;
+        padding-left: 30px;
+    }
+    iframe{
+        padding-top: 20px;
+        padding-left: 30px;
+        width: 90%;
+    }
+    
+                        /*-- ASIDE IS KLAAR /*
+
+    /** BEGIN MAIN*/
+    main{
+        width: 70%;
+        height: 800px;
+        top: 255px;
+        left: 427.5px;
+        position: absolute;
+    }
+    #main-H3-1{
+        color: rgb(245 113 20);
+        font-weight: bold;
+        font-size: 20px;
+        padding-left: 30px;
+        padding-top: 30px;
+        text-align: left;
+    }
+    #main-Pa1{
+        color: black;
+        font-size: 18px;
+        padding-left: 30px;
+        padding-top: 30px;
+        text-align: left;
+        font-weight: bold;
+    }
+    #main-form{
+        padding-left: 30px;
+        padding-top: 30px;
+        text-align: left;
+        line-height: 40px;
+    }
+    #main-input1{
+        width: 80%;
+        border: 1px solid black;
+    }
+    #main-input2{
+        width: 80%;
+        border: 1px solid black;
+    }
+    #main-input3{
+        width: 80%;
+        border: 1px solid black;
+    }
+    #main-input4{
+        border: 1px solid black;
+        width: 80%;
+    }
+    input{
+        padding-left: 10px;
+    }
+    input ::placeholder{
+        padding-left: 10px;
+    }
+    select ,option{
+        padding-left: 10px;
+    }
+    textarea{
+        border: 1px solid black;
+        width: 80%;
+        height: 150px;
+        padding-left: 10px;
+    }
+    textarea::placeholder{
+        padding-left: 0px;
+    }
+    #main-button{
+        background-color: rgb(186 85 13);
+        height: 40px;
+        width: 80px;
+        text-align: center;
+        color: white;
+        top: 700px;
+        position: absolute;
+    }
+    #main-button:hover{
+        cursor: pointer;
+        background-color: rgb(245 115 17);
+    }
+     
+
+                        /*-- MAIN IS KLAAR */
+    
+    /** BEGIN FOOTER */
+
+    footer{
+        width: 100%;
+        height: 100px;
+        background-color: rgb(189 86 14);
+        top: 0;
+        position: relative;
+    }
+    #footer-Pa1{
+        color: black;
+        font-size: 18px;
+        padding-top: 26px;
+    }
+    #footer-Pa2{
+        color: black;
+        font-size: 18px;
+        padding-top: 10px;
+    }
+                        /*-- FOOTER IS KLAAR */
+}
+
+
+
+
+
+
+
+                        /*! RESPONSIVE IS FOR LATER! */
+                        /*! EERST ALLE PAGINA'S MAKEN */
+
+/** SCHERM IPHONE 11*/
+@media only screen and (min-width: 413px) and (max-width: 1423px){
+    *{
+        background-image: url(/img/nr.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    body{
+        display: none;
+    }
+}
+
